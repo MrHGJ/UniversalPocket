@@ -18,6 +18,7 @@ import com.hgj.universal.pocket.activity.PianoActivity;
 import com.hgj.universal.pocket.activity.RulerActivity;
 import com.hgj.universal.pocket.activity.SystemInfoActivity;
 import com.hgj.universal.pocket.util.CommonUtil;
+import com.hgj.universal.pocket.util.MiLanTingTypefaceManager;
 import com.hgj.universal.pocket.webview.ShowMovieActivity;
 import com.hgj.universal.pocket.webview.ShowWebViewActivity;
 
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        MiLanTingTypefaceManager.getInstance().init(this);   //初始化米兰亭字体
     }
 
     @OnClick({R.id.bt_ruler, R.id.bt_hand_text, R.id.bt_piano,R.id.bt_paint,R.id.bt_hot_list,R.id.bt_movie,R.id.bt_system_info})
