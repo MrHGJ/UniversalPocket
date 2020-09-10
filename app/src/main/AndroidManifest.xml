@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -16,16 +17,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".webview.ShowMovieActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:hardwareAccelerated="true" ></activity>
-        <activity android:name=".activity.SystemInfoActivity" />
-        <activity
-            android:name=".webview.ShowWebViewActivity"
-            android:configChanges="orientation|screenSize|keyboardHidden"
-            android:hardwareAccelerated="true" />
-        <activity android:name=".activity.HotListActivity" />
-        <activity android:name=".activity.PaintActivity">
+        <activity android:name=".activity.memo.EditMemoActivity"></activity>
+        <activity android:name=".activity.MemoActivity">
 
             <!-- <intent-filter> -->
             <!-- <action android:name="android.intent.action.MAIN" /> -->
@@ -34,6 +27,17 @@
             <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
             <!-- </intent-filter> -->
         </activity>
+        <activity
+            android:name=".webview.ShowMovieActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.SystemInfoActivity" />
+        <activity
+            android:name=".webview.ShowWebViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:hardwareAccelerated="true" />
+        <activity android:name=".activity.HotListActivity" />
+        <activity android:name=".activity.PaintActivity" />
         <activity
             android:name=".activity.PianoActivity"
             android:screenOrientation="landscape" />

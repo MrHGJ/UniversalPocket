@@ -1,5 +1,6 @@
 package com.hgj.universal.pocket.util;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class DateUtil {
@@ -19,5 +20,11 @@ public class DateUtil {
         } else {
             return month + "个月前";
         }
+    }
+    //返回时间字符串
+    public static String getTimeString(Date date){
+        SimpleDateFormat sdf = new SimpleDateFormat();// 格式化时间
+        sdf.applyPattern("yyyy-MM-dd HH:mm:ss");
+        return sdf.format(date);
     }
 }

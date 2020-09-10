@@ -7,10 +7,12 @@
     <color name="colorAccentLight">#306200EE</color>
     <color name="darkGrey">#FF555555</color>
     <color name="normalGrey">#FF666666</color>
+    <color name="backGrey">#FFF7F7F7</color>
     <color name="Grey">#FF888888</color>
     <color name="lightGrey">#FFDDDDDD</color>
     <color name="black">#ff000000</color>
     <color name="lightBlack">#EE000000</color>
+    <color name="VeryLightBlack">#AA000000</color>
     <color name="red">#ffff0000</color>
     <color name="blue">#ff0000ff</color>
     <color name="yellow">#ffffff00</color>
@@ -19,4 +21,6 @@
     <color name="iconColor">#FF2C2C2C</color>
     <color name="red_light">#ffff4444</color>
     <color name="hot_bt_color">#50FF4000</color>
+    <color name="float_button_yellow">#FFFAC101</color>
+    <color name="float_button_pressed">#FFCB9800</color>
 </resources>

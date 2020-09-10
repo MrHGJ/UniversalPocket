@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.hgj.universal.pocket.view.MiLanTingTextView
+        android:id="@+id/btn_memo_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normal_button_bg"
+        android:gravity="center"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:text="删除"
+        android:textColor="@color/lightBlack"
+        android:textSize="18sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/lightGrey" />
+
+    <com.hgj.universal.pocket.view.MiLanTingTextView
+        android:id="@+id/btn_memo_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normal_button_bg"
+        android:gravity="center"
+        android:paddingTop="18dp"
+        android:paddingBottom="18dp"
+        android:text="取消"
+        android:textColor="@color/lightBlack"
+        android:textSize="18sp" />
+
+</LinearLayout>

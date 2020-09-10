@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/memo_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    android:background="@drawable/memo_item_bg"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="10dp">
+
+    <com.hgj.universal.pocket.view.MiLanTingBoldTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="标题"
+        android:textColor="@color/lightBlack"
+        android:textSize="16sp"
+        android:lines="1"
+        android:ellipsize="end"/>
+
+    <com.hgj.universal.pocket.view.MiLanTingTextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="这里是内容"
+        android:textColor="@color/Grey"
+        android:textSize="16sp"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <com.hgj.universal.pocket.view.MiLanTingTextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2020-09-08 19:45"
+        android:textSize="12sp" />
+
+</LinearLayout>

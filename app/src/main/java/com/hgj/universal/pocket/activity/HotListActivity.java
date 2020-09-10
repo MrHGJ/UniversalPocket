@@ -136,6 +136,10 @@ public class HotListActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * 处理EventBus发送的事件
+     * @param event
+     */
     @Subscribe
     public void onPullStateChangeEvent(ScrollStateChangeEvent event) {
         if (event.msg == "ScrollUp") {

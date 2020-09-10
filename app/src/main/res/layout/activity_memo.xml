@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGrey"
+    tools:context=".activity.MemoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/status_bar"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@color/backGrey"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingRight="20dp">
+
+            <com.hgj.universal.pocket.view.MiLanTingBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="便签"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <com.hgj.universal.pocket.view.OverScrollLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_memo_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:overScrollMode="always"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp" />
+        </com.hgj.universal.pocket.view.OverScrollLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/bt_new_memo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/add_button_bg"
+        android:src="@drawable/ic_add" />
+</FrameLayout>
