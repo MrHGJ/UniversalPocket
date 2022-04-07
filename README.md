@@ -31,7 +31,7 @@
 ![](./demo/title2.jpg)
   <br>
 
-  - **画板：**
+- **画板：**
   <br>
 ![](./demo/draw1.jpg)
   <br>
@@ -42,13 +42,14 @@
 ![](./demo/draw3.jpg)
   <br>
   
-  - **电子琴：**
+  
+- **电子琴：**
   <br>
 ![](./demo/piano.jpg)
   <br>
   
 
-  - **笔记：**
+- **笔记：**
   <br>
 ![](./demo/note1.jpg)
   <br>
@@ -61,4 +62,5 @@
 ![](./demo/hot-list.jpg)
   <br>
   
+
 榜单聚合某些api失效，暂时无法看全部功能
